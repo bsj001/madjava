@@ -1,4 +1,4 @@
-package org.example.io.nio;
+package org.example.nio;
 
 import java.nio.CharBuffer;
 
