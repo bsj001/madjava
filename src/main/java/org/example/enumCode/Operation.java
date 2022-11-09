@@ -1,5 +1,7 @@
 package org.example.enumCode;
 
+import org.junit.Test;
+
 public enum Operation {
     PLUS,MINUS,TIMES,DIVIDE;
     public double eval(double x,double y){
@@ -11,5 +13,11 @@ public enum Operation {
             default:return 0;
         }
     }
-    
+
+    public static void main(String[] args) {
+        System.out.println(PLUS.eval(3,4));
+        System.out.println(MINUS.eval(5,4));
+        System.out.println(TIMES.eval(5,4));
+        System.out.println(DIVIDE.eval(5,4));
+    }
 }

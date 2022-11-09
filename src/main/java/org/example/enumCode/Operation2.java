@@ -24,5 +24,13 @@ public enum Operation2 {
     };
     
     public abstract double eval(double x,double y);
+
+
+    public static void main(String[] args) {
+        System.out.println(Operation2.PLUS.eval(3,4));
+        System.out.println(Operation2.MINUS.eval(5,4));
+        System.out.println(Operation2.TIMES.eval(5,4));
+        System.out.println(Operation2.DIVIDE.eval(5,4));
+    }
     
 }
