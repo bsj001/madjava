@@ -43,33 +43,34 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="2H7ixlraJdxusSCOfPpblaAbXwv" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="flattenModules" value="true" />
-    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/myCode/test/madjava&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;vcs.Git&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "D:/myCode/test/madjava",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="org.example.enumCode" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Operation2">
-    <configuration name="Gender" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.enumCode.Gender" />
+  <component name="RunManager" selected="Application.TestSystem">
+    <configuration name="MyUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.wildcardCharacter.MyUtils" />
       <module name="madjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.enumCode.*" />
+          <option name="PATTERN" value="org.example.wildcardCharacter.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -77,12 +78,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Operation2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.enumCode.Operation2" />
+    <configuration name="TestEnumMap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.treeMap.TestEnumMap" />
       <module name="madjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.enumCode.*" />
+          <option name="PATTERN" value="org.example.treeMap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -90,61 +91,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="GenderTest.testGender1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collectionsTest.TestSort" />
       <module name="madjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.collectionsTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.GenderTest" />
-      <option name="METHOD_NAME" value="testGender1" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperationTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestSystem" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.environmentTest.TestSystem" />
       <module name="madjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.environmentTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.OperationTest" />
-      <option name="METHOD_NAME" value="test" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OperationTest.testOperation2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TestUnmodifiable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.collectionsTest.TestUnmodifiable" />
       <module name="madjava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.*" />
+          <option name="PATTERN" value="org.example.collectionsTest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="org.example" />
-      <option name="MAIN_CLASS_NAME" value="org.example.OperationTest" />
-      <option name="METHOD_NAME" value="testOperation2" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Operation2" />
-        <item itemvalue="Application.Gender" />
-        <item itemvalue="JUnit.OperationTest.testOperation2" />
-        <item itemvalue="JUnit.OperationTest.test" />
-        <item itemvalue="JUnit.GenderTest.testGender1" />
+        <item itemvalue="Application.TestSystem" />
+        <item itemvalue="Application.MyUtils" />
+        <item itemvalue="Application.TestUnmodifiable" />
+        <item itemvalue="Application.TestSort" />
+        <item itemvalue="Application.TestEnumMap" />
       </list>
     </recent_temporary>
   </component>
@@ -157,6 +149,7 @@
       <option name="presentableId" value="Default" />
       <updated>1667642771353</updated>
       <workItem from="1667642772446" duration="1358000" />
+      <workItem from="1667969119587" duration="10698000" />
     </task>
     <task id="LOCAL-00001" summary="111">
       <created>1667642810240</created>
