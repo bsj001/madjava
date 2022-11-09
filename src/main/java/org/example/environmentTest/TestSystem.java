@@ -1,3 +1,5 @@
+
+
 package org.example.environmentTest;
 
 import org.junit.Test;
@@ -23,8 +25,8 @@ public class TestSystem {
     }
 
     /**
-     * hashcodeæ˜¯é€šè¿‡valueæ¥ç¡®å®šçš„
-     * å†…å­˜åœ°å€identityHashCode
+     * hashcodeÊÇÍ¨¹ıvalueÀ´È·¶¨µÄ
+     * ÄÚ´æµØÖ·identityHashCode
      */
     @Test
     public void test(){
@@ -41,7 +43,7 @@ public class TestSystem {
     }
     @Test
     public void testTime(){
-        long t1 = System.currentTimeMillis();//æ¯«ç§’çº§åˆ«çš„æ—¶é—´
-        long t2 = System.nanoTime();//å¾®ç§’çº§åˆ«çš„æ—¶é—´
+        long t1 = System.currentTimeMillis();//ºÁÃë¼¶±ğµÄÊ±¼ä
+        long t2 = System.nanoTime();//Î¢Ãë¼¶±ğµÄÊ±¼ä
     }
 }
